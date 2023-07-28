@@ -1,0 +1,41 @@
+body{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    background-color:  hsl(0, 0%, 86%);
+     
+}
+.calc{
+    background-color:  hsl(0, 0%, 100%);
+}
+input{
+    color:black;
+    font-size: 26px;
+    
+}
+label{
+    color: rgb(128, 126, 126);
+    font-weight: 600;
+}
+#demo{
+    font-size: xx-large;
+}
+span{
+    color: hsl(259, 100%, 65%);
+   
+    font-weight: bolder;
+}
+h1{
+    font-weight: bolder;
+}
+.img{
+    width: 75%;
+    height: 1px;
+    background-color:hsl(0, 0%, 86%);
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: hsl(259, 100%, 65%);
+    text-align: center;
+    color: hsl(0, 0%, 94%);
+}

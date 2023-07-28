@@ -1,0 +1,50 @@
+<html>
+    <head> 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/all.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="w-50 m-auto text-center h-50 m-5 rounded-5 calc">
+            <div class="row  m-5 p-2 justify-content-center p-1">
+              <div class="  col-md-3 ">
+                <label>Day</label>
+                <br>
+                <input type="number" placeholder="DD"  class="rounded w-75 p-1 " id="DD"><br>
+                <span id = "dateMessage" style="color:red" class=" fw-lighter text-nowrap text-center "></span>  
+            </div><div class="  col-md-3 ">
+                <label>month</label>
+                <br>
+                <input type="number" placeholder="MM"  class="rounded w-75 p-1 "  id="MM"><br>
+                <span id = "monthMessage" style="color:red" class=" fw-lighter text-nowrap text-center "></span>  
+
+            </div><div class="  col-md-3 ">
+                <label>year</label>
+                <br>
+                <input type="number" placeholder="YYYY"  class="rounded w-75 p-1 " id="YYYY">
+                <br>
+                <span id = "yearMessage" style="color:red" class=" fw-lighter text-nowrap text-center  m-3 "></span>  
+
+            </div>
+            <div class="img mt-5  mt-2 d-flex justify-content-center align-items-center"></div>
+             
+           <button type="submit" class="w-25 border-0 text-center bg-white pt-4" onclick="ageCalculator()" value="submit">
+            <div class="icon d-flex justify-content-center align-items-center rounded-circle">
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
+        </button>
+            <div class="demo">
+                <h1><span id="result1">--</span> years</h1>
+                <h1><span id="result2">--</span> months</h1>
+                <h1><span id="result3">--</span> days</h1>
+            </div>
+          </div>
+        
+      
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
